@@ -1,4 +1,7 @@
 package playground.essence.creatures;
 
-public abstract class Fly extends Insect {
+public class Fly extends Insect {
+    public Fly(int mass, String name) {
+        super(mass, name);
+    }
 }
