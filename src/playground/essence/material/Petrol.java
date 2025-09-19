@@ -1,4 +1,13 @@
 package playground.essence.material;
 
-public class Petrol {
+public class Petrol implements Pourable, Powerable {
+    @Override
+    public void pour() {
+
+    }
+
+    @Override
+    public void powerUp() {
+
+    }
 }

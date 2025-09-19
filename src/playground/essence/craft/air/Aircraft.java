@@ -1,8 +1,10 @@
 package playground.essence.craft.air;
 
+import playground.essence.Flyable;
 import playground.essence.Matter;
+import playground.essence.craft.Transportable;
 
-public abstract class Aircraft extends Matter {
+public abstract class Aircraft extends Matter implements Flyable, Transportable {
     protected String name;
 
     public Aircraft(int mass, String name) {
@@ -16,5 +18,13 @@ public abstract class Aircraft extends Matter {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public void canFly() {
+    }
+
+    @Override
+    public void transport() {
     }
 }

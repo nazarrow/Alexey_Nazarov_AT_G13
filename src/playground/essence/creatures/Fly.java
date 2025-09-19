@@ -1,7 +1,14 @@
 package playground.essence.creatures;
 
-public class Fly extends Insect {
+import playground.essence.Flyable;
+
+public class Fly extends Insect implements Flyable {
     public Fly(int mass, String name) {
         super(mass, name);
+    }
+
+    @Override
+    public void canFly() {
+
     }
 }
