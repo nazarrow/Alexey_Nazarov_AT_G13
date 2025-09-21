@@ -50,10 +50,12 @@ public class FlyableProcessorRunner {
         System.out.println(" ");
 
         // flyableProcessor.runFlyable(insectFly);
-        // Insect — абстрактный класс, не реализует Flyable напрямую.
+        // flyableProcessor.runFlyable((Flyable) insectFly);
+        // Метод runFlyable не реализует интерфейс Flyable напрямую, т.к. Insect — абстрактный класс
 
         // flyableProcessor.runFlyable(insectMosquito);
-        // Insect — абстрактный класс, не реализует Flyable напрямую.
+        //flyableProcessor.runFlyable((Flyable) insectMosquito);
+        // Метод runFlyable не реализует интерфейс Flyable напрямую, т.к. Insect — абстрактный класс
 
         flyableProcessor.runFlyable(aCopter);
         System.out.println(" ");
@@ -66,9 +68,9 @@ public class FlyableProcessorRunner {
         flyableProcessor.runFlyable(aMosquito);
         System.out.println(" ");
 
-        flyableProcessor.runFlyable(flyablePlane, "никуда");
+        flyableProcessor.runFlyable(aCopter, "никуда");
         System.out.println(" ");
-        flyableProcessor.runFlyable(flyableMosquito, "повсюду");
+        flyableProcessor.runFlyable(aFly, "повсюду");
         System.out.println(" ");
     }
 }
