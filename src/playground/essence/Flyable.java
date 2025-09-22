@@ -1,5 +1,5 @@
 package playground.essence;
 
 public interface Flyable {
-    void canFly();
+    void fly(String direction);
 }
