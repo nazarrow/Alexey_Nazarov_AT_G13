@@ -7,4 +7,9 @@ public class Car extends Vehicle implements Transportable, Rideable {
     public Car(int mass, String name) {
         super(mass, name);
     }
+
+    @Override
+    public void ride() {
+
+    }
 }

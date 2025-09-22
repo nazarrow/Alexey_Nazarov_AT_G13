@@ -7,4 +7,9 @@ public class Moped extends Vehicle implements Transportable, Rideable {
     public Moped(int mass, String name) {
         super(mass, name);
     }
+
+    @Override
+    public void ride() {
+
+    }
 }

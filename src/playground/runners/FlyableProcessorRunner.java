@@ -30,47 +30,29 @@ public class FlyableProcessorRunner {
         Fly aFly = new Fly(23, "Domestica Fly");
         Mosquito aMosquito = new Mosquito(12, "Vulgaris Mosquito");
 
-        System.out.println(" ");
-
         flyableProcessor.runFlyable(flyableCopter);
-        System.out.println(" ");
         flyableProcessor.runFlyable(flyablePlane);
-        System.out.println(" ");
         flyableProcessor.runFlyable(flyableRocket);
-        System.out.println(" ");
         flyableProcessor.runFlyable(flyableFly);
-        System.out.println(" ");
         flyableProcessor.runFlyable(flyableMosquito);
-
         flyableProcessor.runFlyable(aircraftCopter);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aircraftPlane);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aircraftRocket);
-        System.out.println(" ");
 
         // flyableProcessor.runFlyable(insectFly);
+        // Метод runFlyable не реализует интерфейс Flyable напрямую
         // flyableProcessor.runFlyable((Flyable) insectFly);
-        // Метод runFlyable не реализует интерфейс Flyable напрямую, т.к. Insect — абстрактный класс
 
         // flyableProcessor.runFlyable(insectMosquito);
-        //flyableProcessor.runFlyable((Flyable) insectMosquito);
-        // Метод runFlyable не реализует интерфейс Flyable напрямую, т.к. Insect — абстрактный класс
+        // аналогично
 
         flyableProcessor.runFlyable(aCopter);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aPlane);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aRocket);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aFly);
-        System.out.println(" ");
         flyableProcessor.runFlyable(aMosquito);
-        System.out.println(" ");
 
         flyableProcessor.runFlyable(aCopter, "никуда");
-        System.out.println(" ");
         flyableProcessor.runFlyable(aFly, "повсюду");
-        System.out.println(" ");
     }
 }
