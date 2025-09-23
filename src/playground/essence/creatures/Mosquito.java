@@ -8,7 +8,7 @@ public class Mosquito extends Insect implements Flyable {
     }
 
     @Override
-    public void canFly() {
-
+    public void fly(String direction) {
+        System.out.printf("I am %s, my name is %s and I amd flying to %s", this.getClass().getSimpleName(), getName(), direction);
     }
 }

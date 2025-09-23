@@ -1,5 +1,5 @@
 package playground.essence.craft;
 
 public interface Transportable {
-    void transport();
+    int move(int pointA, int pointB);
 }
