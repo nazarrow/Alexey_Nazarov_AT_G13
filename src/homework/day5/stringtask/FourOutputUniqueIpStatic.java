@@ -1,8 +1,8 @@
 package homework.day5.stringtask;
 
-public class FourOutputUniqueIp {
+public class FourOutputUniqueIpStatic {
 
-    public void outputListUniqueIp(String logText) {
+    public static void outputListUniqueIp(String logText) {
 
         String[] lines = logText.split("\n");
 
