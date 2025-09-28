@@ -12,4 +12,9 @@ public class Motorbike extends Vehicle implements Transportable, Rideable {
     public void ride() {
 
     }
+
+    @Override
+    public void drive(String direction) {
+
+    }
 }

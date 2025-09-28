@@ -9,4 +9,9 @@ public class Crocodile extends Vertebrata implements Crawlable {
     public void crawl() {
 
     }
+
+    @Override
+    public void crawl(String direction, int distance) {
+
+    }
 }
