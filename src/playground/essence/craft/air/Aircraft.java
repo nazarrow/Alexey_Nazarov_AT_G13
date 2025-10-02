@@ -12,6 +12,10 @@ public abstract class Aircraft extends Matter implements Flyable, Transportable 
         this.name = name;
     }
 
+    public Aircraft() {
+        super();
+    }
+
     public String getName() {
         return name;
     }
