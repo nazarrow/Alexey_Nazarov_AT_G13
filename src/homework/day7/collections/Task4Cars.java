@@ -27,13 +27,22 @@ public class Task4Cars {
             BufferedWriter writer = new BufferedWriter(new FileWriter("cars.txt"));
 
             for (String car : cars) {
-                writer.write("\"" + car + "\"" + System.lineSeparator());
+                writer.write("\"" + car + "\"");
             }
             System.out.println("Success");
         } catch (IOException e) {
             System.out.println("Error :" + e.getMessage());
         }
 
+        for (int i = cars.size() - 1; i >= 0; i--) {
+            if (cars.get(i).length() > 4) {
+                cars.remove(i);
+            }
+        }
+
+        for (String car : cars) {
+            System.out.print(car + " ");
+        }
 
     }
 }
