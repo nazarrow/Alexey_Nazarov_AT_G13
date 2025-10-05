@@ -29,9 +29,7 @@ public class Bubble {
 
     @Override
     public String toString() {
-        return "Bubble{" +
-                "volume=" + volume +
-                '}';
+        return "Bubble{name='" + name + "', volume=" + volume + "}";
     }
 
     @Override
