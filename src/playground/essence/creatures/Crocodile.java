@@ -6,12 +6,7 @@ public class Crocodile extends Vertebrata implements Crawlable {
     }
 
     @Override
-    public void crawl() {
-
-    }
-
-    @Override
     public void crawl(String direction, int distance) {
-
+        System.out.println("wr-wr-wrr-r..");
     }
 }

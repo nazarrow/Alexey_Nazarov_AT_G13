@@ -8,7 +8,6 @@ public class Moped extends Vehicle implements Transportable, Rideable {
         super(mass, name);
     }
 
-    @Override
     public void ride() {
 
     }
