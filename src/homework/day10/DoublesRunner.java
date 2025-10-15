@@ -35,6 +35,6 @@ public class DoublesRunner {
                 .mapToInt(Bubble::getVolume)
                 .sum()
         );
-        
+
     }
 }
