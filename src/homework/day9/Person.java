@@ -15,5 +15,12 @@ public class Person {
         MAN, WOMEN
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", sex=" + sex +
+                '}';
+    }
 }
