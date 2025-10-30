@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>etys.g13</groupId>
-    <artifactId>Maven_AT_G13</artifactId>
+    <artifactId>Alexey_Nazarov_AT_G13</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,6 +22,14 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -30,12 +38,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.4</version>
-<!--                <configuration>-->
-<!--                    <includes>-->
-<!--                        <include>PersonTest</include>-->
-<!--                        <include>PersonTest1</include>-->
-<!--                    </includes>-->
-<!--                </configuration>-->
+                <configuration>
+                    <includes>
+                        <include>**/*Test.java</include>
+                        <include>**/*Tests.java</include>
+                    </includes>
+                </configuration>
             </plugin>
         </plugins>
     </build>
