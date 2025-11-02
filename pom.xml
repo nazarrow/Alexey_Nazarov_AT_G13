@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>etys.g13</groupId>
-    <artifactId>Maven_AT_G13</artifactId>
+    <artifactId>Alexey_Nazarov_AT_G13</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,6 +22,21 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.38.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -30,12 +45,50 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.4</version>
-<!--                <configuration>-->
-<!--                    <includes>-->
-<!--                        <include>PersonTest</include>-->
-<!--                        <include>PersonTest1</include>-->
-<!--                    </includes>-->
-<!--                </configuration>-->
+                <!--                <configuration>-->
+                <!--                    &lt;!&ndash; Отключаем автоматическое сканирование JUnit 4 в TestNG &ndash;&gt;-->
+                <!--                    <properties>-->
+                <!--                        <property>-->
+                <!--                            <name>junit</name>-->
+                <!--                            <value>false</value>-->
+                <!--                        </property>-->
+                <!--                    </properties>-->
+                <!--                </configuration>-->
+                <dependencies>
+                    <!-- Провайдер для запуска JUnit 5 (Jupiter) -->
+                    <!--                    <dependency>-->
+                    <!--                        <groupId>org.apache.maven.surefire</groupId>-->
+                    <!--                        <artifactId>surefire-junit-platform</artifactId>-->
+                    <!--                        <version>3.5.4</version>-->
+                    <!--                    </dependency>-->
+                    <!-- Провайдер для запуска JUnit 4 (Vintage) -->
+                    <dependency>
+                        <groupId>org.apache.maven.surefire</groupId>
+                        <artifactId>surefire-junit47</artifactId>
+                        <version>3.5.4</version>
+                    </dependency>
+                    <!-- Провайдер для запуска TestNG -->
+                    <dependency>
+                        <groupId>org.apache.maven.surefire</groupId>
+                        <artifactId>surefire-testng</artifactId>
+                        <version>3.5.4</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <includes>
+                        <include>playground/essence/people/junit/AutomatedEngineerJUnitTests</include>
+                        <include>playground/essence/people/junit/ManualEngineerJUnitTests</include>
+                        <include>playground/essence/people/testng/AutomatedEngineerTestNgTests</include>
+                        <include>playground/essence/people/testng/ManualEngineerTestNgTests</include>
+                    </includes>
+                </configuration>
+            </plugin>
+
+            <!--             surefire-report-plugin для агрегации результатов в один отчет-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.5.4</version>
             </plugin>
         </plugins>
     </build>
