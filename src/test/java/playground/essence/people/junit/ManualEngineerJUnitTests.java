@@ -1,7 +1,8 @@
-package playground.essence.people;
+package playground.essence.people.junit;
 
 import org.junit.Before;
 import org.junit.Test;
+import playground.essence.people.AutomatedEngineer;
 
 import static org.junit.Assert.assertEquals;
 
@@ -45,4 +46,5 @@ public class ManualEngineerJUnitTests {
         engineer.setExperience(8);
         assertEquals("Experience should be updated after set", 8, engineer.getExperience());
     }
+
 }

@@ -1,8 +1,10 @@
-package playground.essence.people;
+package playground.essence.people.junit;
 
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+import playground.essence.people.AutomatedEngineer;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class AutomatedEngineerJUnitTests {
 

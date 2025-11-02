@@ -1,16 +1,17 @@
-package playground.essence.people;
+package playground.essence.people.testng;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import playground.essence.people.AutomatedEngineer;
 
 import static org.testng.Assert.assertEquals;
 
-public class ManualEngineerTestNgTests {
-    private ManualEngineer engineer;
+public class AutomatedEngineerTestNgTests {
+    private AutomatedEngineer engineer;
 
     @BeforeMethod
     public void setUp() {
-        engineer = new ManualEngineer(32, 3);
+        engineer = new AutomatedEngineer(32, 3);
     }
 
     @Test
@@ -20,19 +21,19 @@ public class ManualEngineerTestNgTests {
 
     @Test
     public void testSetAge() {
-        engineer.setAge(35);
-        assertEquals(engineer.getAge(), 35, "Age should be updated after set");
+        engineer.setAge(30);
+        assertEquals(engineer.getAge(), 30, "Age should be updated after set");
     }
 
     @Test
     public void testGetSkill() {
-        assertEquals(engineer.getSkill(), 6, "Skill should be experience * 2");
+        assertEquals(engineer.getSkill(), 9, "Skill should be experience * 3");
     }
 
     @Test
     public void testSetSkill() {
-        engineer.setSkill(15);
-        assertEquals(engineer.getSkill(), 15, "Skill should be updated after set");
+        engineer.setSkill(20);
+        assertEquals(engineer.getSkill(), 20, "Skill should be updated after set");
     }
 
     @Test
@@ -42,7 +43,7 @@ public class ManualEngineerTestNgTests {
 
     @Test
     public void testSetExperience() {
-        engineer.setExperience(6);
-        assertEquals(engineer.getExperience(), 6, "Experience should be updated after set");
+        engineer.setExperience(8);
+        assertEquals(engineer.getExperience(), 8, "Experience should be updated after set");
     }
 }
