@@ -2,16 +2,16 @@ package playground.essence.people.junit;
 
 import org.junit.Before;
 import org.junit.Test;
-import playground.essence.people.AutomatedEngineer;
+import playground.essence.people.ManualEngineer;
 
 import static org.junit.Assert.assertEquals;
 
 public class ManualEngineerJUnitTests {
-    private AutomatedEngineer engineer;
+    private ManualEngineer engineer;
 
     @Before
     public void setUp() {
-        engineer = new AutomatedEngineer(32, 3);
+        engineer = new ManualEngineer(32, 3);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class ManualEngineerJUnitTests {
 
     @Test
     public void testGetSkill() {
-        assertEquals("Skill should be experience * 3", 9, engineer.getSkill());
+        assertEquals("Skill should be experience * 2", 6, engineer.getSkill());
     }
 
     @Test
