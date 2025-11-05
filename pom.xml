@@ -76,11 +76,11 @@
                 </dependencies>
                 <configuration>
                     <includes>
-                        <include>playground/essence/people/junit/AutomatedEngineerJUnitTests</include>
-                        <include>playground/essence/people/junit/ManualEngineerJUnitTests</include>
-                        <include>playground/essence/people/testng/AutomatedEngineerTestNgTests</include>
-                        <include>playground/essence/people/testng/ManualEngineerTestNgTests</include>
+                        <include>JUnitTestSuiteRunner</include>
                     </includes>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
 
