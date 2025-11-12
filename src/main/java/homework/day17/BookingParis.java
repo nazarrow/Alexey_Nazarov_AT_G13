@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Booking {
+public class BookingParis {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://booking.com");
