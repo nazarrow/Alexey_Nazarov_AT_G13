@@ -1,5 +1,8 @@
-package homework.day17;
+package homework.day16;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -9,11 +12,21 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
-public class BookingHint {
-    public static void main(String[] args) {
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://booking.com");
+public class BookingHintTest {
+
+    private WebDriver driver;
+
+    @Before
+    public void setUp() {
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
+    }
+
+    @Test
+    public void testCurrencyTooltip() {
+
+        driver.get("https://booking.com");
 
         try {
             driver.findElement(By.xpath("//*[contains(@aria-label, 'Dismiss sign in')]")).click();
@@ -46,7 +59,13 @@ public class BookingHint {
         if (!expected.equals(actual2)) {
             throw new AssertionError("Ожидалось: '" + expected2 + "', но получено: '" + actual2 + "'");
         }
+    }
 
-        driver.quit();
+    @After
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
+

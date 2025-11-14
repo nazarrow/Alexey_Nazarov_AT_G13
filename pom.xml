@@ -84,6 +84,7 @@
                 <configuration>
                     <includes>
                         <include>JUnitTestSuiteRunner</include>
+                        <include>JUnitRunner</include>
                     </includes>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>

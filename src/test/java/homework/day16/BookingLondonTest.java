@@ -1,5 +1,8 @@
-package homework.day17;
+package homework.day16;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,11 +12,21 @@ import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 
-public class BookingLondon {
-    public static void main(String[] args) throws IOException {
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://booking.com");
+public class BookingLondonTest {
+
+    private WebDriver driver;
+
+    @Before
+    public void setUp() {
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    }
+
+    @Test
+    public void testBookingLondonHotelStyling() throws IOException {
+
+        //Перейти на сайт booking.com
+        driver.get("https://booking.com");
 
         try {
             driver.findElement(By.xpath("//*[contains(@aria-label, 'Dismiss sign in')]")).click();
@@ -21,14 +34,17 @@ public class BookingLondon {
             System.out.println("close the modal window");
         }
 
+        //Найти отели для города «London»
         WebElement searchField = driver.findElement(By.name("ss"));
         searchField.click();
         searchField.sendKeys("London");
 
+        //Выбрать London из выпадающего списка
         driver.findElement(By.xpath("//div[text()='London']")).click();
+
+        //Нажать кнопку поиска
         driver.findElement(By.xpath("//button[@type = 'submit']")).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
 
         //        3. Проскролить страницу к 10-му отелю сверху
         WebElement HotelTen = driver.findElement(By.xpath("//div[@role='listitem'][10]"));
@@ -44,6 +60,13 @@ public class BookingLondon {
         FileUtils.copyFile(((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE),
                 new File("D:\\Download\\Java_AT\\Alexey_Nazarov_AT_G13\\files\\screenshot.png"));
 
-        driver.quit();
+    }
+
+    @After
+    public void tearDown() {
+        // Закрытие браузера
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
