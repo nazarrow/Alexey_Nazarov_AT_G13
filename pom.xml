@@ -37,6 +37,13 @@
             <artifactId>selenium-java</artifactId>
             <version>4.38.0</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.21.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -77,6 +84,7 @@
                 <configuration>
                     <includes>
                         <include>JUnitTestSuiteRunner</include>
+                        <include>JUnitRunner</include>
                     </includes>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
