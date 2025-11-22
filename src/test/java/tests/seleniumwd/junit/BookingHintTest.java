@@ -1,5 +1,6 @@
-package homework.day16;
+package tests.seleniumwd.junit;
 
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,9 +19,7 @@ public class BookingHintTest {
 
     @Before
     public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
+        driver = Driver.getDriver();
     }
 
     @Test
@@ -63,9 +62,7 @@ public class BookingHintTest {
 
     @After
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+        Driver.closeDriver();
     }
 }
 

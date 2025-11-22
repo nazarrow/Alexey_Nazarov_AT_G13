@@ -3,9 +3,9 @@
 <suite name="EngineerTestSuite" verbose="1">
     <test name="EngineerTests">
         <classes>
-            <class name="playground.essence.people.testng.AutomatedEngineerTestNgTests"/>
-            <class name="playground.essence.people.testng.ManualEngineerTestNgTests"/>
-            <class name="playground.essence.people.testng.ParameterizedTestNgTests"/>
+            <class name="tests.people.testng.AutomatedEngineerTestNgTests"/>
+            <class name="tests.people.testng.ManualEngineerTestNgTests"/>
+            <class name="tests.people.testng.ParameterizedTestNgTests"/>
         </classes>
     </test>
 </suite>

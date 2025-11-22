@@ -1,4 +1,4 @@
-package playground.essence.people.junit;
+package tests.people.junit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

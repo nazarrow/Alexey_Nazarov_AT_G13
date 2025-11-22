@@ -1,5 +1,6 @@
-package homework.day16;
+package tests.seleniumwd.junit;
 
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,8 +20,9 @@ public class W3schoolsTest {
 
     @Before
     public void setUp() {
-        driver = new ChromeDriver();
+        driver = Driver.getDriver();
         driver1 = new ChromeDriver();
+        Driver.configureDriver(driver1);
     }
 
     @Test
@@ -67,10 +69,7 @@ public class W3schoolsTest {
 
     @After
     public void tearDown() {
-        // Закрываем браузеры после каждого теста
-        if (driver != null) {
-            driver.quit();
-        }
+        Driver.closeDriver();
         if (driver1 != null) {
             driver1.quit();
         }

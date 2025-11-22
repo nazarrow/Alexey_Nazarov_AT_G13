@@ -1,8 +1,11 @@
-package playground.essence.people.junit;
+package runners;
 
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import tests.people.junit.AutomatedEngineerJUnitTests;
+import tests.people.junit.ManualEngineerJUnitTests;
+import tests.people.junit.ParameterizedJUnitTests;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
@@ -11,5 +14,5 @@ import org.junit.runners.Suite;
         ParameterizedJUnitTests.class
 })
 
-public class JUnitTestSuiteRunner {
+public class PeopleRunner {
 }

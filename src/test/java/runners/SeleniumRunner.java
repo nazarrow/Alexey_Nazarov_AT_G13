@@ -1,8 +1,8 @@
-package homework.day16;
+package runners;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import org.openqa.selenium.support.ui.ISelect;
+import tests.seleniumwd.junit.*;
 
 
 @RunWith(Suite.class)
@@ -16,5 +16,5 @@ import org.openqa.selenium.support.ui.ISelect;
         BookingPragueTest.class
 })
 
-public class JUnitRunner {
+public class SeleniumRunner {
 }

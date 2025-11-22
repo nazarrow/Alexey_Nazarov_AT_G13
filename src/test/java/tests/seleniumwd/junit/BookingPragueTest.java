@@ -1,5 +1,6 @@
-package homework.day16;
+package tests.seleniumwd.junit;
 
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,10 +18,7 @@ public class BookingPragueTest {
 
     @Before
     public void setUp() {
-        // Инициализация драйвера
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        driver.manage().window().maximize();
+        driver = Driver.getDriver();
     }
 
     @Test
@@ -66,10 +64,6 @@ public class BookingPragueTest {
 
     @After
     public void tearDown() {
-        // Закрытие браузера после теста
-        if (driver != null) {
-            driver.quit();
-        }
-
+        Driver.closeDriver();
     }
 }

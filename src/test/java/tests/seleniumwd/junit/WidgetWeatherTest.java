@@ -1,5 +1,6 @@
-package homework.day16;
+package tests.seleniumwd.junit;
 
+import driver.Driver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,8 +31,7 @@ public class WidgetWeatherTest {
         DayOfWeek dayOfWeek = localDate.getDayOfWeek();
         nextDay = dayOfWeek.getDisplayName(TextStyle.FULL, Locale.of("be"));
 
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+        driver = Driver.getDriver();
     }
 
     @Test
@@ -62,9 +62,6 @@ public class WidgetWeatherTest {
 
     @After
     public void tearDown() {
-        // Закрытие браузера
-        if (driver != null) {
-            driver.quit();
-        }
+        Driver.closeDriver();
     }
 }

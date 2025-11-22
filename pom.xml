@@ -83,8 +83,8 @@
                 </dependencies>
                 <configuration>
                     <includes>
-                        <include>JUnitTestSuiteRunner</include>
-                        <include>JUnitRunner</include>
+                        <include>PeopleRunner</include>
+                        <include>SeleniumRunner</include>
                     </includes>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>

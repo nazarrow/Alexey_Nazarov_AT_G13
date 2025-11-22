@@ -1,4 +1,4 @@
-package playground.essence.people.testng;
+package tests.people.testng;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
