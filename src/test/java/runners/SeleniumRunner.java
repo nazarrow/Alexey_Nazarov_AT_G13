@@ -8,7 +8,7 @@ import tests.seleniumwd.junit.*;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         WidgetWeatherTest.class,
-        BookingParisTest.class,
+        BookingParisJUnitTest.class,
         W3schoolsTest.class,
         BookingLondonTest.class,
         DemoQATest.class,
