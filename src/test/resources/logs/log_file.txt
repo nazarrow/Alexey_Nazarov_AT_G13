@@ -1,0 +1,329 @@
+2025-11-28 21:45:24,488 INFO t.s.j.BookingParisJUnitTest [main] Test has started
+2025-11-28 21:45:25,580 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-11-28 21:45:26,518 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-11-28 21:45:36,574 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-11-28 21:45:36,575 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-11-28 21:45:36,719 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-11-28 21:45:36,831 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-01']'
+2025-11-28 21:45:36,950 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-08']'
+2025-11-28 21:45:37,087 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-11-28 21:45:37,175 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//*[@id='group_adults']/following-sibling::div[2]/button[2]'
+2025-11-28 21:45:47,241 INFO t.s.j.BookingParisJUnitTest [main] Test has ended
+2025-12-03 22:29:47,266 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-03 22:29:51,960 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 22:29:53,514 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:30:03,858 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:30:03,868 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-03 22:30:04,156 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 22:30:04,446 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-03 22:30:04,646 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-13']'
+2025-12-03 22:30:04,941 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-03 22:30:05,189 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//*[@id='group_adults']/following-sibling::div[2]/button[2]'
+2025-12-03 22:30:15,303 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-03 22:32:41,024 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-03 22:32:43,457 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 22:32:44,885 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:32:54,957 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:32:54,957 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-03 22:32:55,250 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 22:32:55,395 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-03 22:32:55,655 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-13']'
+2025-12-03 22:32:55,890 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-03 22:32:56,019 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:32:56,136 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:32:56,337 TRACE p.BookingPage [main] Clicking on '+' button for adding rooms: '//*[@id='no_rooms']/following-sibling::div[2]/button[2]'
+2025-12-03 22:33:06,390 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-03 22:33:54,445 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-03 22:33:56,789 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 22:33:58,095 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:34:08,226 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:34:08,236 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-03 22:34:08,497 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 22:34:08,658 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-03 22:34:08,855 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-13']'
+2025-12-03 22:34:09,055 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-03 22:34:09,246 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:34:09,457 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:34:09,593 TRACE p.BookingPage [main] Clicking on '+' button for adding rooms: '//label[@for='no_rooms']/../following-sibling::div/button[2]'
+2025-12-03 22:34:09,711 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 22:34:10,366 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:34:20,447 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:34:20,449 TRACE p.BookingPage [main] Filtering by 5-stars: '//div[@data-filters-item='class:class=5']'
+2025-12-03 22:34:20,945 TRACE p.BookingPage [main] Clicking on sorting dropdown: '//div//button[@data-testid='sorters-dropdown-trigger']'
+2025-12-03 22:34:23,555 TRACE p.BookingPage [main] Waiting for hotels to appear: '//div[@data-testid='property-card'][1]'
+2025-12-03 22:34:23,804 TRACE p.BookingPage [main] Sorting hotels by ascending: '//li//button[@aria-label='Property rating and price']'
+2025-12-03 22:34:24,298 DEBUG t.s.j.BookingParisTest [main] Checking the hotel rate
+2025-12-03 22:34:24,298 TRACE p.BookingPage [main] Waiting for hotel stars to appear: './/div[@data-testid='rating-stars']'
+2025-12-03 22:34:26,563 TRACE p.BookingPage [main] Getting stars quantity of the first hotel: './/div[@data-testid='rating-stars']'
+2025-12-03 22:34:26,604 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-03 22:36:15,660 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-03 22:36:18,045 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 22:36:19,395 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:36:29,527 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:36:29,528 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-03 22:36:29,736 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 22:36:29,923 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-03 22:36:30,158 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-13']'
+2025-12-03 22:36:30,412 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-03 22:36:30,589 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:36:30,728 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 22:36:30,891 TRACE p.BookingPage [main] Clicking on '+' button for adding rooms: '//label[@for='no_rooms']/../following-sibling::div/button[2]'
+2025-12-03 22:36:31,024 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 22:36:31,548 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:36:41,634 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 22:36:41,634 TRACE p.BookingPage [main] Filtering by 5-stars: '//div[@data-filters-item='class:class=5']'
+2025-12-03 22:36:42,084 TRACE p.BookingPage [main] Clicking on sorting dropdown: '//div//button[@data-testid='sorters-dropdown-trigger']'
+2025-12-03 22:36:44,874 TRACE p.BookingPage [main] Waiting for hotels to appear: '//div[@data-testid='property-card'][1]'
+2025-12-03 22:36:45,082 TRACE p.BookingPage [main] Sorting hotels by ascending: '//li//button[@aria-label='Property rating and price']'
+2025-12-03 22:36:45,484 DEBUG t.s.j.BookingParisTest [main] Checking the hotel rate
+2025-12-03 22:36:45,484 TRACE p.BookingPage [main] Waiting for hotel stars to appear: './/div[@data-testid='rating-stars']'
+2025-12-03 22:36:48,044 TRACE p.BookingPage [main] Getting stars quantity of the first hotel: './/div[@data-testid='rating-stars']'
+2025-12-03 22:36:48,104 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-03 23:13:09,489 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-03 23:13:12,958 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:13:14,806 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:13:25,470 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:13:25,470 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-03 23:13:25,836 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:13:26,187 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-03 23:13:26,424 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-13']'
+2025-12-03 23:13:26,712 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-03 23:13:26,938 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 23:13:27,190 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-03 23:13:27,430 TRACE p.BookingPage [main] Clicking on '+' button for adding rooms: '//label[@for='no_rooms']/../following-sibling::div/button[2]'
+2025-12-03 23:13:27,590 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:13:34,906 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:13:45,047 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:13:45,047 TRACE p.BookingPage [main] Filtering by 5-stars: '//div[@data-filters-item='class:class=5']'
+2025-12-03 23:13:46,206 TRACE p.BookingPage [main] Clicking on sorting dropdown: '//div//button[@data-testid='sorters-dropdown-trigger']'
+2025-12-03 23:13:49,920 TRACE p.BookingPage [main] Waiting for hotels to appear: '//div[@data-testid='property-card'][1]'
+2025-12-03 23:13:50,106 TRACE p.BookingPage [main] Sorting hotels by ascending: '//li//button[@aria-label='Property rating and price']'
+2025-12-03 23:13:50,736 DEBUG t.s.j.BookingParisTest [main] Checking the hotel rate
+2025-12-03 23:13:50,744 TRACE p.BookingPage [main] Waiting for hotel stars to appear: './/div[@data-testid='rating-stars']'
+2025-12-03 23:13:53,970 TRACE p.BookingPage [main] Getting stars quantity of the first hotel: './/div[@data-testid='rating-stars']'
+2025-12-03 23:13:54,028 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-03 23:13:54,544 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:13:56,240 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:13:57,506 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:14:07,670 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:14:07,677 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:14:08,018 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:14:09,157 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:19:22,135 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:19:24,557 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:19:26,136 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:19:36,285 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:19:36,285 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:19:36,502 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:19:37,616 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:20:49,683 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:20:52,150 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:20:53,944 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:21:04,031 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:21:04,040 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:21:04,324 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:21:05,528 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:24:26,041 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:24:28,841 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:24:30,434 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:24:40,569 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:24:40,573 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:24:40,886 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:24:45,234 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:24:55,806 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:25:05,869 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:29:58,298 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:30:01,748 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:30:03,252 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:30:13,319 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:30:13,319 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:30:13,503 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:30:14,634 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:30:26,268 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:30:28,979 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:30:30,604 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:30:40,669 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:30:40,669 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:30:40,906 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:30:41,339 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:30:51,380 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:31:01,431 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:31:54,236 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:31:56,561 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:31:58,078 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:32:08,162 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:32:08,165 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:32:08,353 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:32:08,510 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-07']'
+2025-12-03 23:32:08,735 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-09']'
+2025-12-03 23:32:08,964 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:32:09,463 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:32:19,518 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:32:29,595 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:35:16,677 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:35:19,098 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:35:20,753 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:35:30,831 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:35:30,831 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:35:31,136 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:35:31,445 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-07']'
+2025-12-03 23:35:31,777 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-09']'
+2025-12-03 23:35:32,028 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:35:37,058 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:35:47,644 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:35:57,723 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-03 23:37:26,483 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-03 23:37:28,796 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-03 23:37:30,269 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:37:40,466 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:37:40,470 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-03 23:37:40,704 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-03 23:37:40,953 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-07']'
+2025-12-03 23:37:41,175 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-09']'
+2025-12-03 23:37:41,317 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-03 23:37:46,977 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:37:57,253 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-03 23:37:57,331 TRACE p.BookingPage [main] Scrolling to the hotel: '[[ChromeDriver: chrome on windows (4b2e44d43adabf81a249aada942b0d48)] -> xpath: //div[@data-testid='property-card'][10]]'
+2025-12-03 23:37:57,397 TRACE p.BookingPage [main] Changing background color to 'green' for the hotel: '[[ChromeDriver: chrome on windows (4b2e44d43adabf81a249aada942b0d48)] -> xpath: //div[@data-testid='property-card'][10]]'
+2025-12-03 23:37:57,415 TRACE p.BookingPage [main] Changing title color to 'red' for the hotel: '[[ChromeDriver: chrome on windows (4b2e44d43adabf81a249aada942b0d48)] -> xpath: //div[@data-testid='property-card'][10]//div[@data-testid='title']]'
+2025-12-03 23:37:57,435 TRACE p.BookingPage [main] Taking screenshot
+2025-12-03 23:37:57,872 TRACE p.BookingPage [main] Saving screenshot to: 'D:\Download\Java_AT\Alexey_Nazarov_AT_G13\screenshot.png'
+2025-12-03 23:37:57,880 DEBUG t.s.j.BookingLondonTest [main] Checking the file was created and is located in the specified path
+2025-12-03 23:37:57,880 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-04 21:20:00,600 INFO t.s.j.BookingParisTest [main] Test has started
+2025-12-04 21:20:03,214 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:20:04,097 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:20:14,236 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:20:14,236 TRACE p.BookingPage [main] Entering 'Paris' in destination field: '//*[@name='ss']'
+2025-12-04 21:20:14,368 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-04 21:20:14,450 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-07']'
+2025-12-04 21:20:14,543 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-14']'
+2025-12-04 21:20:14,632 TRACE p.BookingPage [main] Clicking on 'Persons' box: '//*[@data-testid='occupancy-config']'
+2025-12-04 21:20:14,733 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-04 21:20:14,817 TRACE p.BookingPage [main] Clicking on '+' button for adding persons: '//label[@for='group_adults']/../following-sibling::div/button[2]'
+2025-12-04 21:20:14,907 TRACE p.BookingPage [main] Clicking on '+' button for adding rooms: '//label[@for='no_rooms']/../following-sibling::div/button[2]'
+2025-12-04 21:20:14,975 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-04 21:20:15,388 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:20:25,402 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:20:25,403 TRACE p.BookingPage [main] Filtering by 5-stars: '//div[@data-filters-item='class:class=5']'
+2025-12-04 21:20:25,920 TRACE p.BookingPage [main] Clicking on sorting dropdown: '//div//button[@data-testid='sorters-dropdown-trigger']'
+2025-12-04 21:20:26,337 TRACE p.BookingPage [main] Waiting for hotels to appear: '//div[@data-testid='property-card']'
+2025-12-04 21:20:27,606 TRACE p.BookingPage [main] Sorting hotels by ascending: '//li//button[@aria-label='Property rating and price']'
+2025-12-04 21:20:27,795 DEBUG t.s.j.BookingParisTest [main] Checking the hotel rate
+2025-12-04 21:20:27,795 TRACE p.BookingPage [main] Waiting for hotel stars to appear: './/div[@data-testid='rating-stars']'
+2025-12-04 21:20:29,228 TRACE p.BookingPage [main] Getting stars quantity of the first hotel: './/div[@data-testid='rating-stars']'
+2025-12-04 21:20:29,263 INFO t.s.j.BookingParisTest [main] Test has ended
+2025-12-04 21:20:58,000 INFO t.s.j.BookingLondonTest [main] Test has started
+2025-12-04 21:20:59,278 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:21:00,225 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:10,292 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:10,293 TRACE p.BookingPage [main] Entering 'London' in destination field: '//*[@name='ss']'
+2025-12-04 21:21:10,437 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-04 21:21:10,530 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-08']'
+2025-12-04 21:21:10,618 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-10']'
+2025-12-04 21:21:10,702 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-04 21:21:13,999 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:24,075 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:24,123 TRACE p.BookingPage [main] Scrolling to the hotel: '[[ChromeDriver: chrome on windows (ddde235d21adf2fda3168e6c67c02002)] -> xpath: //div[@data-testid='property-card'][10]]'
+2025-12-04 21:21:24,155 TRACE p.BookingPage [main] Changing background color to 'green' for the hotel: '[[ChromeDriver: chrome on windows (ddde235d21adf2fda3168e6c67c02002)] -> xpath: //div[@data-testid='property-card'][10]]'
+2025-12-04 21:21:24,168 TRACE p.BookingPage [main] Changing title color to 'red' for the hotel: '[[ChromeDriver: chrome on windows (ddde235d21adf2fda3168e6c67c02002)] -> xpath: //div[@data-testid='property-card'][10]//div[@data-testid='title']]'
+2025-12-04 21:21:24,178 TRACE p.BookingPage [main] Taking screenshot
+2025-12-04 21:21:24,367 TRACE p.BookingPage [main] Saving screenshot to: 'D:\Download\Java_AT\Alexey_Nazarov_AT_G13\screenshot.png'
+2025-12-04 21:21:24,371 DEBUG t.s.j.BookingLondonTest [main] Checking the file was created and is located in the specified path
+2025-12-04 21:21:24,372 INFO t.s.j.BookingLondonTest [main] Test has ended
+2025-12-04 21:21:46,666 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 21:21:47,995 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:21:48,874 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:59,026 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:21:59,028 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 21:21:59,211 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 21:21:59,213 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 525px')]'
+2025-12-04 21:22:09,241 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 21:37:03,749 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 21:37:05,017 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:37:05,924 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:37:16,032 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:37:16,034 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 21:37:16,217 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 21:37:16,218 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[@id=':Rj57n5:']'
+2025-12-04 21:37:26,270 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 21:53:25,684 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 21:53:26,982 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:53:27,917 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:53:37,990 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:53:37,991 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 21:53:38,168 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 21:53:38,169 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 804px')]'
+2025-12-04 21:53:48,195 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 21:55:56,782 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 21:55:58,105 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:55:58,977 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:56:09,042 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:56:09,047 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 21:56:09,231 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 21:56:09,232 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 804px')]'
+2025-12-04 21:56:19,251 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 21:58:30,074 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 21:58:31,452 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 21:58:32,428 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:58:37,516 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 21:58:37,517 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 21:58:37,685 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 21:58:37,686 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 804px')]'
+2025-12-04 21:58:42,734 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 22:03:10,954 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 22:03:12,238 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 22:03:13,185 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:03:23,288 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:03:23,288 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 22:03:23,466 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 22:03:23,467 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 746px')]'
+2025-12-04 22:03:33,545 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 22:04:59,566 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 22:05:01,400 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 22:05:02,342 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:05:12,404 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:05:12,404 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 22:05:12,571 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 22:05:12,571 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 746px')]'
+2025-12-04 22:05:22,640 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 22:11:37,979 INFO t.s.j.BookingHintTest [main] Test has started
+2025-12-04 22:11:39,375 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 22:11:40,256 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:11:50,328 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:11:50,328 TRACE p.BookingPage [main] Hovering on element: '//button[@data-testid='header-currency-picker-trigger']'
+2025-12-04 22:11:50,503 DEBUG t.s.j.BookingHintTest [main] Checking currency tooltip
+2025-12-04 22:11:50,503 TRACE p.BookingPage [main] Getting the text of currency tooltip: '//div[contains(@style,'left: 746px')]'
+2025-12-04 22:12:00,550 INFO t.s.j.BookingHintTest [main] Test has ended
+2025-12-04 22:15:46,972 INFO t.s.j.BookingPragueTest [main] Test has started
+2025-12-04 22:15:48,311 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 22:15:49,397 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:15:59,522 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:15:59,522 TRACE p.BookingPage [main] Entering 'Prague' in destination field: '//*[@name='ss']'
+2025-12-04 22:15:59,666 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-04 22:15:59,778 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-04 22:15:59,906 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-11']'
+2025-12-04 22:16:00,016 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-04 22:16:03,258 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:16:13,302 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:16:13,304 TRACE p.BookingPage [main] Filtering by 9+ rate: '(//input[@name='review_score=90']/following-sibling::label/span[2])[1]'
+2025-12-04 22:16:13,505 TRACE p.BookingPage [main] Clicking on the first hotel: '//div[@data-testid='property-card'][1]//div[@data-testid='title']'
+2025-12-04 22:16:15,046 TRACE p.BookingPage [main] Switching to the tab with the opened hotel
+2025-12-04 22:16:15,072 TRACE p.BookingPage [main] Getting the hotel rate: '(//div[contains(text(),'Оценка')])[3]'
+2025-12-04 22:16:26,802 INFO t.s.j.BookingPragueTest [main] Test has ended
+2025-12-04 22:18:54,387 INFO t.s.j.BookingPragueTest [main] Test has started
+2025-12-04 22:18:55,651 TRACE p.BookingPage [main] Opening Booking site: 'https://booking.com'
+2025-12-04 22:18:56,609 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:19:06,692 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:19:06,695 TRACE p.BookingPage [main] Entering 'Prague' in destination field: '//*[@name='ss']'
+2025-12-04 22:19:06,841 TRACE p.BookingPage [main] Clicking on 'Dates' box: '//*[@data-testid='searchbox-dates-container']'
+2025-12-04 22:19:06,971 TRACE p.BookingPage [main] Setting start date: '//*[@data-date='2025-12-06']'
+2025-12-04 22:19:07,075 TRACE p.BookingPage [main] Setting end date: '//*[@data-date='2025-12-11']'
+2025-12-04 22:19:07,194 TRACE p.BookingPage [main] Clicking on 'Search' button: '//*[@type='submit']'
+2025-12-04 22:19:10,422 TRACE p.BookingPage [main] Closing the appeared 'Genius' pop-up: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:19:20,478 TRACE p.BookingPage [main] 'Genius' pop-up didn't appear: '//*[aria-label='Dismiss sign-in info.']'
+2025-12-04 22:19:20,479 TRACE p.BookingPage [main] Filtering by 9+ rate: '(//input[@name='review_score=90']/following-sibling::label/span[2])[1]'
+2025-12-04 22:19:20,935 TRACE p.BookingPage [main] Clicking on the first hotel: '//div[@data-testid='property-card'][1]//div[@data-testid='title']'
+2025-12-04 22:19:22,332 TRACE p.BookingPage [main] Switching to the tab with the opened hotel
+2025-12-04 22:19:22,358 TRACE p.BookingPage [main] Getting the hotel rate: '//div[@data-testid='review-score']/div[2]'
+2025-12-04 22:19:33,867 INFO t.s.j.BookingPragueTest [main] Test has ended

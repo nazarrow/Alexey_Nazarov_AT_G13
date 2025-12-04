@@ -30,3 +30,6 @@ bin/
 
 /target
 /build
+
+### Configuration files ###
+db.properties
